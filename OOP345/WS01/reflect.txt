@@ -1,0 +1,37 @@
+OOP345NBB
+156417172 Min Woo Kim
+
+This workshop was good opportunity for me to go over what I had learned last semester with dynamic allocation, copy constructor, overloaded operators and more.
+Also I learned a few features, Command-Line Arguments, external linkage and internal linkage(static variable).
+In the main function, putting 'int argc' that's the number of arguments and 'char* argv[]' that's the array holding arguments makes me able to code and work with Host platform interface.
+
+- the difference between internal and external linkage using examples from your code
+- what are `static` variables and how were they useful in this workshop.
+External linkage is an entity declared in other unit that can be defined and assigned a value for multiple times
+Internal linkage with keyword 'static' is basically local variable that lasts end of the program no matter what scope it is in the program.
+The variable 'g_maxSize' in the workshop is defined with different values in main function for many times. This is what external linkage is capable to do.
+The variable 'count' with keyword 'static' lives until the end of lifetime of program that never resets even it's called several times.
+
+
+- the changes that you made in upgrading your `String` class.
+In order to hold whatever value it is, 'String' class needs to have dynamic allocation to be flexible to accept the value.
+I changed char array 'str' to pointer value, and execute dynamic allocation when needed.
+But, I still wonder why it doesn't need deallocation at the end. 
+
+
+**Quiz 1 Reflection**
+
+2) What is the difference between a Lvalue and a Rvalue? Or when would you use them?
+Lvalue is an accessible value covering a part of memory.
+Rvalue is a temporary object not associated with an object.
+
+3) Why would you use a move copy constructor or a move assignment operator instead of the regular copy constructor or assignment operator?
+When we can no longer access to copy and assignment of objects, we manipulate its address to access by using move constructor and move operator.
+
+
+4) How do we specify variable inference when creating a new variable. What 2 parts do we need?
+
+keyword 'auto' will help us infer a type of the variable from previously declared object.
+keyword 'auto' and previous declared object is what we need.
+
+

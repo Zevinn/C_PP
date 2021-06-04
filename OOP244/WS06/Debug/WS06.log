@@ -1,0 +1,7 @@
+﻿  Contact.cpp
+c:\users\민우\downloads\seneca\2019.01\oop244\ws06\ws06\contact.cpp(38): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\민우\downloads\seneca\2019.01\oop244\ws06\ws06\contact.cpp(74): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\민우\downloads\seneca\2019.01\oop244\ws06\ws06\contact.cpp(115): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  w6_at_home.cpp
+  Generating Code...
+  WS06.vcxproj -> C:\Users\민우\Downloads\Seneca\2019.01\OOP244\WS06\WS06\Debug\WS06.exe

@@ -1,0 +1,12 @@
+
+In this workshop, there were many ideas that I didn't know about that I learned. I was lost in Collection module in insertion operator part where I use a member of an object when I shouldn't. I needed to use an object to output and access to other 'Movie' and 'Book' module which I found interesting.
+Using a module called 'Functor' was difficult for me to understand, I did not like exception handling part where I got lost many times. Lambda expression was quite useful for me to use. This workshop was overall almost all of material mixed that I've learned.
+A functor performs more complicated cases than lambda expression. Lambda expression is simpler and concise material than a functor that operates many tasks.
+In order to handle an exception that would occur in the constructor of SpellChecker module, I would code having a if-else clause to see if it opens the file successfully. If not, it will break out to outside.
+But still, if-else code might be less precise and accurate than exception handled. Exception handled would oversee unexpected result and catch it properly for the programmer.
+The provided information in the 'Movie' and 'Book' files have similar information to be taken. I think this design is almost the best to take the information.
+I think the default constructors of 'Movie' and 'Book' modules are necessary for us to make sure when any objects are created, what they hold is empty space to avoid any other circumstances that would occur overflow error, memory error or outputting error, etc.
+
+**Quiz 5 Reflection**
+
+I got all the answer correct

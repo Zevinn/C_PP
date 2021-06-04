@@ -1,0 +1,39 @@
+Workshop 09 Reflection
+
+Templates are existed for us to code efficiently and reasonably. It is literally templates that fit in any environment that a programmer want it to be.
+In light of how often we code similar function/coding, I would say, this is one of most useful features in Objective language.
+
+1. What happens if you try to put your template functions in Data.cpp? Does your
+source code compile if you move all functions to Data.h?
+it doesn't work. Declaration and Definition of Templates should be in the same file.
+
+2. Move one template function into ws9_lab.cpp. Does it work now? Do you need to
+define the template function above main(), before it is used, or can you define it
+below main()? 
+it still doesn't work. It says that template declarations are permitted only at global, namespace, or class scope. 
+3. Could you have done this lab without templates, by just overloading your functions
+in Data.h to accept integer and double arguments? What is the advantage of using
+templates?
+Of course I could have. But it will take me so much more time than using template 
+because, without template having so much redundancies, I still need to code the individual functions. 
+The advantage of templates is that it reduces so much time to code and eliminate duplication as much as possible.
+
+4. What is the difference between template<class T> and template<typename T>?
+I don't think they are different. It's just that I can use it either but in terms of how much readable, 'typename' is more recognizable and readable.
+
+5. What have you learned doing this workshop?
+Making efficiency better by reducing duplication, repetition and redundancy. 
+
+
+Quiz 9 Reflection
+
+3) 
+My answer was :
+x = 1 count = 0
+x = 1 count = 1
+x = 1 count = 2
+
+Answer should be 
+x = 1 count = 0
+x = 1 count = 1
+x = 1.1 count = 0

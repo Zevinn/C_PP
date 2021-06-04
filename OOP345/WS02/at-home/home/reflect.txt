@@ -1,0 +1,24 @@
+
+In this workshop, I could learn file stream that I forgot before and move semantics.
+I could see how faster it was than regular copy constructor. I got to understand the concept, but it's a bit blurry to know the exact process of it.
+
+The reason why move operations are faster than regular ones is the move constructor actually doesn't copy the rvalue object but, manipulate the address by move semantics.
+That's why it's easy and fast to be done.
+
+
+TMI) I couldn't submit lab part becasue of absence of the file that allows me to submit (command didn't work in the bash file)
+Sorry Nathan but, I still feel a bit upset and victimized :(
+
+
+**Quiz 2 Reflection**
+
+
+2) What 2 things do you need to make a pure virtual function and describe what each does?
+
+Keywords 'virtual' at the beginning and '=0' at the end.
+'virtual' describes that the function is virtual function that represents abstract class.
+'=0' means that it is PURE virtual function that the function doesn't work and cannot be assigned anything.
+
+3) What are the 2 admissible types (types that allow for substitution) for a template's parameters?
+
+Class / typename

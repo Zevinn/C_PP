@@ -1,0 +1,8 @@
+﻿  Traveler.cpp
+c:\users\민우\downloads\seneca\2019.01\oop244\ws04\in-lab\traveler.cpp(24): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\민우\downloads\seneca\2019.01\oop244\ws04\in-lab\traveler.cpp(25): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\민우\downloads\seneca\2019.01\oop244\ws04\in-lab\traveler.cpp(26): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+  in-lab.vcxproj -> C:\Users\민우\Downloads\Seneca\2019.01\OOP244\WS04\in-lab\Debug\in-lab.exe

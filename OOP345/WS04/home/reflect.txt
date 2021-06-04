@@ -1,0 +1,19 @@
+
+It was difficult and a bit fun workshop if I dare to say. I could practice of array of pointers, get to know the concepts of the class relationships composition and aggregation.
+It is still confusing so much for me to see a relationship properly but, it was good practice for me to understand.
+
+Composition is a relationship between two classes or more where updates or changes of component(s) class don't affect composer class. Composer has a responsibility to manage components constructing and destroying properly.
+Aggregation is less coupled compared to composition that Aggregatee(s) and Aggregator do not affect each other with any changes or addition. The objects are created and destroyed separately in the application.
+
+The move and copy constructors of the both composition and aggregation doens't really seem different in coding wise.
+but, probably according to this workshop, I can specify some part of them in aggregation since the relationship isn't as tied as composition, when composition HAS TO affect each other of the classes.
+
+
+
+
+**Quiz 4 Reflection**
+
+2) What typing do you need when assigning a lambda to a variable? Why?
+'auto'
+We need to tell compiler information about type inference of lambda expressions.
+This will specifies type inference.

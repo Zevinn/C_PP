@@ -1,0 +1,10 @@
+This workshop is a practice of STL container as well as lambda function. It was quite difficult to understand the both more at the same time. 
+but, once I get the concepts and how they work, I found them useful and sure would feel that I would use it more frequently.
+
+I've used listed STL function; sort, for_each, any_of.
+sort function in 'sort' member function perfectly works as the same as the 'sort' member function should work in this case. The process of it was there for me to use and I took it for granted. 
+for_each function is used in most of the additional function in home part because this function is the most flexible to be used. It gives me more freedom of what to do in 3rd parameter: predicate fn.
+I considered to use replace_if function in cleanAlbum() but, if this was used, the access to album variable was tricky and complex. When for_each fn was used, it was so much easier than using replace_if fn.
+any_of function is used in inCollection() to see if the parameter artist exists in my container. if any of the variable matches with it, it means exist. 
+I found STL algorithms faster than manual loops when I was debugging. STL algorithm 'loop' was executed in one time case by case, when a loop might take time and memory to function.
+If a client inserts unexpected value in sort(), it would have another bracket to throw an exception, or simply output error message to client and ask for a correct output.

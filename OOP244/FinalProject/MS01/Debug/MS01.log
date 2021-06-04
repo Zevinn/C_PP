@@ -1,0 +1,7 @@
+﻿  Date.cpp
+  ms1.cpp
+  Generating Code...
+c:\users\민우\downloads\seneca\2019.01\oop244\finalproject\ms01\date.cpp(132): warning C4172: returning address of local variable or temporary: temp
+c:\users\민우\downloads\seneca\2019.01\oop244\finalproject\ms01\date.cpp(120): warning C4172: returning address of local variable or temporary: temp
+ms1.obj : error LNK2019: unresolved external symbol "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl ama::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class ama::Date const &)" (??6ama@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV12@ABVDate@0@@Z) referenced in function "bool __cdecl milestone1(void)" (?milestone1@@YA_NXZ)
+C:\Users\민우\Downloads\Seneca\2019.01\OOP244\FinalProject\MS01\Debug\MS01.exe : fatal error LNK1120: 1 unresolved externals

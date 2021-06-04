@@ -1,0 +1,16 @@
+
+The further I go with this assignments, the more confusing and difficult it gets. It's too obvious to say. I still struggle with dealing with data and exception handling. However, container and iterator parts are interesting even though it is harder than others I have learned obviously.
+Template is one of the things I struggle with as well, I still need to work on it more. All the feature I just mentioned were mixed up in this assignment, which I think dealt with them quite well. 
+
+If I don't deallocate what I've assigned into vector, it would cause memory leak and cover up much of memory. the 'loadData()' function detects unexpected data within try-catch method. When it tries to create an instance,
+it would check the tag at the very first of the data to see if it would recognize it and categorize it into certain container. If not, it would go to exception and ignore it to accept the data. If it holds invalid data checking input data if it's appropriate type of value to take in each attribute,
+it would also ignore the data throwing exception. There must be other way to detect it but, this would be efficient way to check out the exceptions. I might have to check it manually which would use memory and my energy :(.
+I could have used just Vehicle type instead of pointer type of Vehicle but then, it would be so uncomfortable for me to access to those data. Pointer is used for many reasons. Pointer allows us to access to memory of data, array or structure etc. could be worked efficiently with pointer feature,
+dynamic allocation would be used, we can edit the data accessing to them by pointers, and most importantly, it's so much more effective using pointer than just deal with variables and values themselves.
+
+
+
+
+**Quiz 6 Reflection**
+
+I got all the answer correct

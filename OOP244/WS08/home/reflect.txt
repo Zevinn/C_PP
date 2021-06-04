@@ -1,0 +1,32 @@
+This workshop was a confirmation for me about the concept of the base class and derived classes.
+Any object from a derived class should have the constructor of the base class to be an object.
+It was difficult to figure out the virtual destructor and the pointer of dynamic allocated object derived. 
+I might have to study further about the parts
+
+1. What is the difference between an abstract base class and a concrete class?
+An abstract class is a base class where an interface is defined, and a concrete class is a derived class from the abstract class that implements the interface.
+
+2. Take a look to the main module?how is it possible that this module can work with chequing and savings accounts but doesn¡¯t know about the SavingsAccount or ChequingAccount classes?
+A pointer arrays where pointers point the classes to make the objects of the classes dynamically are the path to work without knowing the existence of the classes.
+
+3. Note that the interface has a destructor, even if doesn¡¯t store any attributes. Why is that destructor necessary?
+The VIRTUAL Destructor of the base class will make the derived classes able to call their own destructors individually. 
+If it doens't have the virtual destructor, the pointer created in Allocator.cpp won't work properly due to absence of it
+
+4. In the context of a hierarchy of classes, what is the difference between overloading, overriding and shadowing?
+Overloading : Overloading function is a term when we redefine a function already existed newly. The existed function could be from library function or a function that programmer might have written. 
+They have the same identifier, but different parameters or different number of the parameters. It's accessed physically by user specifying them or writng new ones.
+
+Overriding : Overriding is when we use a derived member function used by acquiring an access from base class. We take the access from pure virtual funtions of the base abstract class.
+
+Shadowing : Shadowing is a base class's function that derived class shadows. They have the same identifier and parameter. The derived class can not only have its own functionality, but also use base's one.
+
+
+Quiz 8 Reflection
+
+1) When do we call a class as abstract class?
+My answer was :
+An abstract class is a Base class that has concrete derived class
+
+Answer should be :
+An abstract class is a Base class that has both pure virtual function and concrete derived class.

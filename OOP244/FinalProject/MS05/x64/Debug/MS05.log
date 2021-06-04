@@ -1,0 +1,12 @@
+﻿  AmaApp.cpp
+c:\users\민우\downloads\seneca\2019.01\oop244\finalproject\ms05\perishable.h(13): error C2011: 'ama::Perishable': 'class' type redefinition
+  c:\users\민우\downloads\seneca\2019.01\oop244\finalproject\ms05\perishable.h(13): note: see declaration of 'ama::Perishable'
+  Date.cpp
+  ErrorState.cpp
+  ms5.cpp
+c:\users\민우\downloads\seneca\2019.01\oop244\finalproject\ms05\perishable.h(13): error C2011: 'ama::Perishable': 'class' type redefinition
+  c:\users\민우\downloads\seneca\2019.01\oop244\finalproject\ms05\perishable.h(13): note: see declaration of 'ama::Perishable'
+  Perishable.cpp
+  Product.cpp
+  Utilities.cpp
+  Generating Code...

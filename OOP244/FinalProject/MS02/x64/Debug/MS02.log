@@ -1,0 +1,4 @@
+﻿  ErrorState.cpp
+c:\users\민우\downloads\seneca\2019.01\oop244\finalproject\ms02\errorstate.cpp(19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\민우\downloads\seneca\2019.01\oop244\finalproject\ms02\errorstate.cpp(77): warning C4717: 'ama::operator<<': recursive on all control paths, function will cause runtime stack overflow
+  MS02.vcxproj -> C:\Users\민우\Downloads\Seneca\2019.01\OOP244\FinalProject\MS02\x64\Debug\MS02.exe

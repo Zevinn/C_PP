@@ -1,0 +1,24 @@
+In this workshop, I generally found myself having hard time about the logic and I got confused most of time. 
+I realized how much easy it was if I had thought about this task properly. In anyways, it meant a lot to me to learn and found this fact out.
+I learned a constructor that sets object in empty state and it runs automatically beforehand and it's great function to use.
+
+1) What is a safe empty state? Could you define another state as the safe empty state?
+Safe empty state is literally the statement of an object is in empty space so that we can use the space filling out with other values.
+
+2) Describe how you have minimized code duplication.
+whenever I have to have the object in empty state, I just called a default contructor to make it empty.
+when I want to check if the object is empty, I called isEmpty function to check and return if it's empty or not by bool.
+
+3) Explain why the canTravelWith(...) member function can access the pri-vate data of the object referenced in its parameter.
+the object that the canTravelWith is receiving has been declared as a private member of Traveler class where canTravelWith function is in as a member function.
+A member function has an access to private member of the class, and the object has the access to it as well.
+
+
+QUIZ 4 REFLECTION
+
+4] What is the output?
+My answer was :
+Hello from TestMain Started
+
+The answer should be :
+Main Started

@@ -1,0 +1,35 @@
+By this workshop, I learned how to code for copy constructor and copy assignment and how the logics in both sholud be. 
+I've also faced the issues related to deleting allocation that ran into compilation errors, and I had to go through it to fix it for a quality time.
+It was good opportunity to learn how I need to design it properly. 
+
+1. Why does the copy assignment operator check for self-assignment before doing anything else? If it doesn¡¯t do this test, what could go wrong?
+if the operator adapts itself, when we delete any dynamically allocated memory, it will delete both the object and another object which is no longoer a valid object. And this will obviously cause major problem
+
+2. What you must do in the copy constructor before calling the copy assign-ment operator? Explain why it is necessary.
+I must delete any dynamically allocated memory first because, there's a possibility to have dynamic memory that has been allocated 
+which, when we make another allocated memory, will cause memory overflow that's not efficient and will eventually cause memory issue.
+
+3. Explain why the parameter of the copy constructor must be sent by-refer-ence and not by-value (modify your code to send it by-value and explain the result).
+Copy constructor is used to copy an object. The compiler doesn't allow me to get the value to pass the copy constructor.
+Even if I did, copy constructor would need to call the copy constructor to copy the object which will cause infinitely.
+
+Quiz 6 Reflection
+
+1) 
+My answer was :
+It needs to check if the objects are right to copy by self-assignment.
+
+Answer should be :
+It needs to make sure what it deletes allocation beforehand is not itself otherwise, it will delete data we need to copy.
+
+2) 
+My answer was :
+User Defined Copy constructor
+User Defined Copy constructor
+I am overloaded operator
+User Defined Copy constructor
+I am overloaded operator
+
+Answer should be :
+I am overloaded operator
+User Defined Copy constructor

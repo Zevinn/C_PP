@@ -1,0 +1,33 @@
+Workshop 05
+I've learned about how to deal with overloaded operators that programmers can find very useful treating data when it comes to non-static data that they need to compare or calculate.
+In order to provide convenience dealing with great deal of data and comparing the data, this will make programming more effecient and take less time to operate.
+Once I define any operators depending on how I will use, it will become most useful tools for me and programmers to handle tasks.
+
+1. The operator+ returns a Fraction object. Explain why this operator should
+not return a reference to a Fraction object (like operator+=).
+
+Because after the addition, the value shouldn't be in any variable unless we want it to be. 
+In case of +=, the left operand should hold the result of addition. That's why we need to return the reference of the object.
+
+2. List the temporary objects in the tester module (the temporary objects are
+those that have no name and are removed from memory immediately after
+their creation; put messages in the constructors/destructor to reveal them).
+
+Fraction c, and other local variables I created to code effeciently, such as 'Fraction temp'
+
+3. List the simplifications that you made to your class to minimize duplication.
+Whenever I need to clarify if an object is empty, I call isEmpty function.
+To code operator!=, I just call operator== and switch the result.
+When I need to empty an object, I call constructor.
+In the code of operator+=, I call operator+ to add the left operand and right operand.
+
+
+Quiz 5 Reflection
+
+4)A non-member function that is given access to all members of a class within it is declared, is called _________________.
+My answer was :
+Helper Function
+
+The answer should be :
+Friendship
+

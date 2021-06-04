@@ -1,0 +1,15 @@
+
+In this workshop, I worked with smart pointer that's very useful. I found it perfect for me to use because I often forget to 'delete' a pointer that I use before going out of a scope.
+Since it would be deleted automatically, I could avoid the mistake which, I believe, often happens to most of programmers.
+Here is my code, for example.
+	if (sCode == price[i].code) {
+		Product* p = new Product(desc[x].desc, price[i].price);
+		p->validate();
+		priceList += p;
+		// Here I forgot to delete the temporary pointer 'p'
+	}
+During coding the merge process, at first, I forgot to delete the temporary pointer 'p' at the end as above code.
+This would occur wasting memory, even further, memory leak. If it was a smart pointer, I would've avoided the problem because the smart pointer would be deleted when it goes out of the scope.
+This would be operated as a big deal to programmers because they make mistakes. 
+However, I should remember smart pointers do not have copy assignment and cannot be referenced as the was raw pointers are. This is because the responsibility of smart pointers is heavier than raw ones that they don't hand the ownership easily.
+I should remember using move method handling data with smart pointers.

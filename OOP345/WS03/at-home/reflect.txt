@@ -1,0 +1,12 @@
+
+ In this workshop, all the code was so new to me. Profound use of templates, Specializations, how to call function in different scope with explicit calling, etc.
+I was lost in static members and I confirmed how to deal with static members now on, this workshop seems to be the most important workshop in this semester, 
+according to next lecture material(Template is basic knowledge to understand the note and concepts).
+In specialization, I needed to have 'sum()' specilization becuase the original one and the case the variables are strings would have to operate differently. 
+if strings, how to stack the values in each label is different that it was necessary to specialize the function. Initial value should be set to 0 to be able to sum up appropriately.
+Class variables are static which means, in order for all instatnces of the class to use the class variable, they should be defined in implementation file which in this case is in header file but outside the class.
+
+
+**Quiz 3 Reflection**
+
+I got all the answers correct.
